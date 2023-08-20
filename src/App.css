@@ -1,0 +1,172 @@
+.top-container{
+      background-image: url("../public/images/background.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+}
+.top-container .logo{
+  padding: 50px;
+}
+
+.top-heading{
+  margin-top: 200px;
+  
+}
+
+.top-heading h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+
+}
+.top-heading p{
+  color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all .40s ease;
+}
+
+
+.boot-btn, .section-two .boot-btn,.section-three .boot-btn{
+  width: 190px;
+  height: 60px;
+  font-family: sans-serif;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.boot-btn:hover{
+  background-color: coral;
+}
+
+/* Section 2 css */
+.section-two-head, .section-three-head, .section-four-head{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: sans-serif;
+}
+
+.section-two-head h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 30px;
+    transition: all .40s ease;
+}
+
+.section-two h1, .section-three h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.section-two P, .section-three p{
+  font-size: large;
+}
+.section-three{
+  color: white;
+  background-color: black;
+}
+.section-three .column-3{
+padding: 50px;
+}
+.section-three .column-3 .div-1{
+  margin: 20px;
+}
+.section-four .accordion{
+  border-radius: 15px;
+}
+.section-four h5{
+  padding: 20px;
+}
+.footer{
+  background-color: black;
+  padding: 30px;
+}
+.footer .logo{
+  margin: 50px;
+}
+.footer p{
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .top-container{
+    height: auto;
+  }
+  .top-container .top-heading{
+    margin-top: 25px;
+  }
+    .top-heading h1, .section-two-head h1, .section-two h1, .section-three h1{
+      font-size: 30px;
+    }
+        .section-two-head, .section-three-head, .section-four-head {
+          text-align: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          font-family: sans-serif;
+        }
+        .top-heading p, .section-two P, .section-three p{
+          font-size: 16px;
+        }
+                .section-two Image{
+                  height: 300px;
+                }
+        .section-three .boot-btn{
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+
+}
+
+@keyframes move {
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: move 1.2s ease-in-out;
+}
+
+@keyframes example {
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate2 {
+  animation: example 2.2s ease-in-out;
+}
+
+@keyframes section-three {
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate3 {
+  animation: section-three 3.2s ease-in-out;
+}
